@@ -1,0 +1,13 @@
+{
+  "name": "puck-midnight-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A polished five-reel, 20-payline browser slot game with play credits, wilds, free spins and transparent game mathematics.",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test tests/engine.test.cjs",
+    "math": "node scripts/math.cjs",
+    "start": "node scripts/serve.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
